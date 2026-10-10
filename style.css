@@ -109,6 +109,24 @@ nav a:focus-visible {
     list-style-type: square;
 }
 
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.projects-table th,
+.projects-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.projects-table th {
+    background-color: #2563eb;
+    color: white;
+}
+
+
 .contact-form {
     width: 100%;
     max-width: 500px;
